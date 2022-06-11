@@ -768,6 +768,8 @@ namespace lsp
 #endif /* __linux__ */
 
 #if defined(PLATFORM_WINDOWS)
+    #define INITGUID
+    #define OEMRESOURCE
     #include <windows.h>
 #endif /* PLATFORM_WINDOWS */
 
